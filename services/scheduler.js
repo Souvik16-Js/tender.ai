@@ -1,6 +1,6 @@
 const cron = require('node-cron');
-const { scrapeAssamTenders } = require('../assamTenderScraper');
-const { scrapeGemBids } = require('../gemScraper');
+const { scrapeAssamTenders } = require('./assamTenderScraper');
+const { scrapeGemBids } = require('./gemScraper');
 const { processNewTenders } = require('./notificationService');
 const Tender = require('../models/Tender');
 const logger = require('../utils/logger');

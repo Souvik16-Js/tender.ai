@@ -19,5 +19,8 @@
     "node-cron": "^4.6.0",
     "puppeteer": "^25.3.0",
     "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.2.0"
   }
 }

@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
-const Tender = require('./models/Tender');
-const logger = require('./utils/logger');
-const { generateMockTender } = require('./services/mockDataGenerator');
+const Tender = require('../models/Tender');
+const logger = require('../utils/logger');
+const { generateMockTender } = require('./mockDataGenerator');
 /**
  * Scrapes tenders from assamtenders.gov.in (Assam eProcurement Portal)
  * Supports both Simulation mode (using realistic mock data) and Real mode (Puppeteer crawler)

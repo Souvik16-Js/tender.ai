@@ -1,9 +1,9 @@
 const axios = require('axios');
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
-const Tender = require('./models/Tender');
-const logger = require('./utils/logger');
-const { generateMockTender } = require('./services/mockDataGenerator');
+const Tender = require('../models/Tender');
+const logger = require('../utils/logger');
+const { generateMockTender } = require('./mockDataGenerator');
 /**
  * Scrapes tenders/bids from Government e-Marketplace (GeM)
  * Targets GeM BidPlus portal (https://bidplus.gem.gov.in/all-bids)
